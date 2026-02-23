@@ -3,7 +3,7 @@ $method="POST";
 $cache="no-cache";
 include "../../head.php";
 
-// user id and password
+// user id and password are required for login
 if(isset($_POST['userid']) && isset($_POST['password'])){
     $userid=cleanme($_POST['userid']);
     $password=cleanme($_POST['password']);
